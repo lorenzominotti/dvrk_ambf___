@@ -1,0 +1,14 @@
+bodies: [BodyA]
+high resolution path: ../../meshes/blender_afmb/box/high_res/
+low resolution path: ../../meshes/blender_afmb/box/low_res/
+ignore inter-collision: false
+namespace: /ambf/env/
+BodyA:
+  name: box01
+  mesh: box.stl
+  mass: 15.0
+  collision margin: 0.005
+  location:
+    orientation: {p: -0.0, r: 0.0, y: 0.0}
+    position: {x: 0.5, y: -0.30, z: 0}
+  color: green
